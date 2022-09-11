@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: "Special", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    margin: 24px;
+    color: black;
+}
+
+header {
+    background: linear-gradient(-90deg, red, yellow);
+    padding: 22px;
+}
+
+.timeline {
+    background-color: red;
+    margin-top: 0px;
+    text-align: center;
+    padding: 15px;
+}
+
+ul {
+    display: inline-block;
+}
+
+.quote {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+footer {
+    background-color: blanchedalmond;
+    color: white;
+    padding: 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+a {
+    color: green;
+}
+
+@font-face {
+    font-family: 'Special';
+    src: url('Special-Regular.woff2') format('woff2'),
+        url('Special-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
